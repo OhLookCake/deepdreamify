@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 import scipy.ndimage as nd
 from PIL import Image
@@ -97,8 +98,10 @@ net = caffe.Classifier('tmp.prototxt', param_fn,
 
 print('Models patched')
 
+
 #Load image, and run deepdream
-filename='3JrZnoC.jpg'
+
+filename = sys.argv[1]
 filenamesplit = filename.split('.')
 title = '.'.join(filenamesplit[:(len(filenamesplit) - 1)])
 
