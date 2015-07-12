@@ -1,4 +1,5 @@
 import sys
+import os
 import numpy as np
 import scipy.ndimage as nd
 from PIL import Image
@@ -98,19 +99,32 @@ net = caffe.Classifier('tmp.prototxt', param_fn,
 
 print('Models patched')
 
+all_layers = net.blobs.keys() 
 
 #Load image, and run deepdream
 
-filename = sys.argv[1]
-filenamesplit = filename.split('.')
-title = '.'.join(filenamesplit[:(len(filenamesplit) - 1)])
+if len(sys.argv) > 3:
+    print('Usage:\npython dreamify.py <image> [<endlayer>]')
+    sys.exit()
 
+filename = sys.argv[1]
+title = os.path.basename(filename)
+title = '.'.join(title.split('.')[:-1])
 rawimage = np.float32(Image.open(filename))
 print('Image Loaded')
-_ = deepdream(net, rawimage, outfile_prefix=title)#,  end='inception_3b/5x5_reduce')
 
 
-# net.blobs.keys() # List layers
+if len(sys.argv) == 3:
+    endlayer = sys.argv[2]
+    if endlayer not in all_layers:
+        print endlayer + ' not an available layer name'
+        sys.exit()
+else:
+    endlayer = 'inception_3b/5x5_reduce'
+
+
+_ = deepdream(net, rawimage, end=endlayer, outfile_prefix='output/'+title)
+
 
 
 
