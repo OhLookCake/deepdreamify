@@ -1,2 +1,4 @@
 images/*
 tmp.prototxt
+*.pyc
+output/*.jpg

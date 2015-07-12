@@ -1,11 +1,13 @@
-import sys
-import os
 import numpy as np
 import scipy.ndimage as nd
 from PIL import Image
 from google.protobuf import text_format
 import caffe
 
+''' code modified from https://github.com/google/deepdream
+    refer for licenses
+    #deepdream
+'''
 
 
 def save_image(img, filename):
@@ -80,51 +82,23 @@ def deepdream(net, base_img, iter_n=10, octave_n=4, octave_scale=1.4, end='incep
 
 
 
-#Load Model
-model_path = '../caffe/models/bvlc_googlenet/' # substitute your path here
-net_fn   = model_path + 'deploy.prototxt'
-param_fn = model_path + 'bvlc_googlenet.caffemodel'
-
-print('Models loaded\n')
-
-# Patching model to be able to compute gradients.
-model = caffe.io.caffe_pb2.NetParameter()
-text_format.Merge(open(net_fn).read(), model)
-model.force_backward = True
-open('tmp.prototxt', 'w').write(str(model))
-
-net = caffe.Classifier('tmp.prototxt', param_fn,
-                       mean = np.float32([104.0, 116.0, 122.0]), # ImageNet mean, training set dependent
-                       channel_swap = (2,1,0)) # the reference model has channels in BGR order instead of RGB
-
-print('Models patched')
-
-all_layers = net.blobs.keys() 
-
-#Load image, and run deepdream
-
-if len(sys.argv) > 3:
-    print('Usage:\npython dreamify.py <image> [<endlayer>]')
-    sys.exit()
-
-filename = sys.argv[1]
-title = os.path.basename(filename)
-title = '.'.join(title.split('.')[:-1])
-rawimage = np.float32(Image.open(filename))
-print('Image Loaded')
-
-
-if len(sys.argv) == 3:
-    endlayer = sys.argv[2]
-    if endlayer not in all_layers:
-        print endlayer + ' not an available layer name'
-        sys.exit()
-else:
-    endlayer = 'inception_3b/5x5_reduce'
-
-
-_ = deepdream(net, rawimage, end=endlayer, outfile_prefix='output/'+title)
-
-
-
+def loadmodel():
+    model_path = '../caffe/models/bvlc_googlenet/' # substitute your path here
+    net_fn   = model_path + 'deploy.prototxt'
+    param_fn = model_path + 'bvlc_googlenet.caffemodel'
+    
+    print('Models loaded\n')
+    
+    # Patching model to be able to compute gradients.
+    model = caffe.io.caffe_pb2.NetParameter()
+    text_format.Merge(open(net_fn).read(), model)
+    model.force_backward = True
+    open('tmp.prototxt', 'w').write(str(model))
+    
+    net = caffe.Classifier('tmp.prototxt', param_fn,
+                           mean = np.float32([104.0, 116.0, 122.0]), # ImageNet mean, training set dependent
+                           channel_swap = (2,1,0)) # the reference model has channels in BGR order instead of RGB
+    
+    print('Models patched')
+    return(net)
 
