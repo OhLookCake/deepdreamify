@@ -2,3 +2,4 @@ images/*
 tmp.prototxt
 *.pyc
 output/*.jpg
+scripts/credentials.py
