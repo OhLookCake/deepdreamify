@@ -65,7 +65,7 @@ def fetch(fetchfrom='pics', numfetch=5):
 
             fetchlogger.info('    ' + imageurl)
             if filename.split('.')[-1].lower() in ['jpg', 'jpeg', 'bmp', 'png', 'tif', 'tiff']:
-                urllib.urlretrieve(imageurl, 'images/' + filename)
+                urllib.urlretrieve(imageurl, 'images/raw/' + filename)
                 imagelist.append([filename, submission.id])
                 fetchlogger.info('    Action: Downloaded')
             else:

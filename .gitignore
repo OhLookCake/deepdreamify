@@ -3,3 +3,4 @@ tmp.prototxt
 *.pyc
 output/*.jpg
 scripts/credentials.py
+records/*.txt
