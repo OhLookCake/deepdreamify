@@ -1,5 +1,6 @@
 import numpy as np
 import scipy.ndimage as nd
+import logging
 from PIL import Image
 from google.protobuf import text_format
 import caffe
@@ -32,7 +33,7 @@ def make_step(net, step_size=1.5, end='inception_4c/output', jitter=32, clip=Tru
 
     ox, oy = np.random.randint(-jitter, jitter+1, 2)
     src.data[0] = np.roll(np.roll(src.data[0], ox, -1), oy, -2) # apply jitter shift
-            
+
     net.forward(end=end)
     dst.diff[:] = dst.data  # specify the optimization objective
     net.backward(start=end)
@@ -41,21 +42,23 @@ def make_step(net, step_size=1.5, end='inception_4c/output', jitter=32, clip=Tru
     src.data[:] += step_size/np.abs(g).mean() * g
 
     src.data[0] = np.roll(np.roll(src.data[0], -ox, -1), -oy, -2) # unshift image
-            
+
     if clip:
         bias = net.transformer.mean['data']
         src.data[:] = np.clip(src.data, -bias, 255-bias)
 
 def deepdream(net, base_img, iter_n=10, octave_n=4, octave_scale=1.4, end='inception_4c/output', clip=True, outfile_prefix='image', **step_params):
     # prepare base images for all octaves
+    coredd = logging.getLogger('coredd_dream')
+    finalimage = None
     octaves = [preprocess(net, base_img)]
     for i in xrange(octave_n-1):
         octaves.append(nd.zoom(octaves[-1], (1, 1.0/octave_scale,1.0/octave_scale), order=1))
-    
+
     src = net.blobs['data']
     detail = np.zeros_like(octaves[-1]) # allocate image for network-produced details
     for octave, octave_base in enumerate(octaves[::-1]):
-	print('Starting Octave ' + str(octave))
+	coredd.info('Starting Octave ' + str(octave))
         h, w = octave_base.shape[-2:]
         if octave > 0:
             # upscale details from the previous octave
@@ -66,39 +69,40 @@ def deepdream(net, base_img, iter_n=10, octave_n=4, octave_scale=1.4, end='incep
         src.data[0] = octave_base+detail
         for i in xrange(iter_n):
             make_step(net, end=end, clip=clip, **step_params)
-            
+
             # visualization
             vis = deprocess(net, src.data[0])
             if not clip: # adjust image contrast if clipping is disabled
                 vis = vis*(255.0/np.percentile(vis, 99.98))
-            save_image(vis, outfile_prefix + '_' + str(octave) + '_' + str(i) + '.jpg')
-            print(octave, i, end, vis.shape)
-            
-            
+            finalimage = vis
+            coredd.info(str([octave, i, end, vis.shape]))
+
+
         # extract details produced on the current octave
         detail = src.data[0]-octave_base
+    save_image(finalimage, outfile_prefix + '.jpg')
     # returning the resulting image
     return deprocess(net, src.data[0])
 
 
 
 def loadmodel():
+    coredd_load = logging.getLogger('coredd_loadmodel')
     model_path = '../caffe/models/bvlc_googlenet/' # substitute your path here
     net_fn   = model_path + 'deploy.prototxt'
     param_fn = model_path + 'bvlc_googlenet.caffemodel'
-    
-    print('Models loaded\n')
-    
+    coredd_load.info('Models loaded\n')
+
     # Patching model to be able to compute gradients.
     model = caffe.io.caffe_pb2.NetParameter()
     text_format.Merge(open(net_fn).read(), model)
     model.force_backward = True
     open('tmp.prototxt', 'w').write(str(model))
-    
+
     net = caffe.Classifier('tmp.prototxt', param_fn,
                            mean = np.float32([104.0, 116.0, 122.0]), # ImageNet mean, training set dependent
                            channel_swap = (2,1,0)) # the reference model has channels in BGR order instead of RGB
-    
-    print('Models patched')
+
+    coredd_load.info('Models patched')
     return(net)
 
