@@ -4,7 +4,9 @@ from PIL import Image
 import sys
 import os
 import getopt
+import logging
 import coredreamifier
+
 
 
 #Image manipulation functions
@@ -16,46 +18,30 @@ def resize(image, maxdimension):
     return(transformedimage)
 
 
+def dreamify(filename, resize_newsize=None, endlayer='inception_4c/output'):
+    dreamlogger = logging.getLogger('dreamify')
+    dreamlogger.info('Dreamifier initiated')
 
-#Load image, and run deepdream
+    #Load image, and run deepdream
+    title = os.path.basename(filename)
+    title = '.'.join(title.split('.')[:-1])
+    net = coredreamifier.loadmodel()
+    all_layers = net.blobs.keys()
+    if endlayer not in all_layers:
+        assert False, endlayer + " not a valid layer"
 
-opts, args = getopt.getopt(sys.argv[1:], "f:r:e:", ["filename=", "resize_newsize=", "endlayer"])
+    rawimage = np.float32(Image.open(filename))
+    dreamlogger.info('Image Loaded')
 
-filename = None
-resize_newsize = None
-#endlayer = 'inception_3b/5x5_reduce'
-endlayer = 'inception_4c/output' #setting the default
-
-
-for option, value in opts:
-    if option in ("-f", "--filename"):
-        filename = value
-        title = os.path.basename(filename)
-        title = '.'.join(title.split('.')[:-1])
-    elif option in ("-r", "--resize_newsize"):
-        resize_newsize = int(value)
-        if resize_newsize <= 0:
-            assert False, "Not a valid value for resizing: " + str(resize_newsize)
-    elif option in ("-e", "--endlayer"):
-        endlayer = value
-        all_layers = net.blobs.keys()
-        if endlayer not in all_layers:
-            assert False, endlayer + " not a valid layer"
+    #resize_newsize
+    if resize_newsize:
+        image = resize(rawimage, resize_newsize)
+        dreamlogger.info('Image resized')
     else:
-        assert False, "Unhandled option " + option
+        image = rawimage
+        dreamlogger.info('Image size retained')
 
-rawimage = np.float32(Image.open(filename))
-print('Image Loaded')
-
-#resize_newsize
-if resize_newsize:
-    image = resize(rawimage, resize_newsize)
-    print('Image resized')
-else:
-    image = rawimage
-
-net = coredreamifier.loadmodel()
-_ = coredreamifier.deepdream(net, image, end=endlayer, outfile_prefix='output/'+title)
-
+    dreamlogger.info('Calling coredreamifier')
+    _ = coredreamifier.deepdream(net, image, end=endlayer, outfile_prefix='images/processed/'+title)
 
 
