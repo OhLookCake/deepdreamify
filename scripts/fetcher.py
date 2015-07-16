@@ -5,13 +5,13 @@ import os
 import re
 import logging
 from urllib2 import urlopen
+from PIL import Image
 from credentials import *
 from bs4 import BeautifulSoup
 
 
-def fetch(fetchfrom='pics', numfetch=5):
+def fetch(fetchfrom='pics', numfetch=25):
 
-    
     fetchlogger = logging.getLogger('fetcher')
     timestamp = str(int(time.time()))
     fetchlogger.info('Fetcher initiated')
@@ -48,7 +48,6 @@ def fetch(fetchfrom='pics', numfetch=5):
             fetchlogger.info('    Action: None; Already done')
             continue
         else:
-            print 'notfound', submission.id
             imageurl = submission.url
             fetchlogger.info('    ' + imageurl)
 
@@ -66,7 +65,11 @@ def fetch(fetchfrom='pics', numfetch=5):
             fetchlogger.info('    ' + imageurl)
             if filename.split('.')[-1].lower() in ['jpg', 'jpeg', 'bmp', 'png', 'tif', 'tiff']:
                 urllib.urlretrieve(imageurl, 'images/raw/' + filename)
-                imagelist.append([filename, submission.id])
+                im = Image.open('images/raw/' + filename)
+                filemaxdim = max(im.size) # max of width and height
+                returnstring = [filename, submission.id, submission.title, filemaxdim, submission.permalink]
+                imagelist.append(returnstring)
+                fetchlogger.info('    >Appended to imagelist: ' + str(returnstring))
                 fetchlogger.info('    Action: Downloaded')
             else:
                 fetchlogger.warn('    Action: Ignored; Not an image url')
