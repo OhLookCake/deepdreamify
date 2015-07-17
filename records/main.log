@@ -1,0 +1,704 @@
+07-16 13:33 root         INFO     Started new instance
+07-16 13:33 root         INFO     Calling Fetcher
+07-16 13:33 fetcher      INFO     Fetcher initiated
+07-16 13:33 fetcher      INFO     Timestamp: 1437033804
+07-16 13:33 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 13:33 fetcher      INFO     1
+07-16 13:33 fetcher      INFO     Title: Traffic stats for /r/pics are now public
+07-16 13:33 fetcher      INFO         Id: 3d12ek
+07-16 13:33 fetcher      INFO         http://www.reddit.com/r/pics/comments/3d12ek/traffic_stats_for_rpics_are_now_public/
+07-16 13:33 fetcher      INFO         http://www.reddit.com/r/pics/comments/3d12ek/traffic_stats_for_rpics_are_now_public/
+07-16 13:33 fetcher      WARNING      Action: Ignored; Not an image url
+07-16 13:33 fetcher      INFO     2
+07-16 13:33 fetcher      INFO     Title: I'd planned this photo years ago as long as I had a son and was still in the military. My dad and I, and my son and I.
+07-16 13:33 fetcher      INFO         Id: 3dgac2
+07-16 13:33 fetcher      INFO         http://i.imgur.com/mYLD8Qu.jpg
+07-16 13:33 fetcher      INFO         http://i.imgur.com/mYLD8Qu.jpg
+07-16 13:33 fetcher      INFO         >Appended to imagelist: [u'mYLD8Qu.jpg', u'3dgac2', u"I'd planned this photo years ago as long as I had a son and was still in the military. My dad and I, and my son and I.", 1600]
+07-16 13:33 fetcher      INFO         Action: Downloaded
+07-16 13:33 fetcher      INFO     3
+07-16 13:33 fetcher      INFO     Title: Accidentally got too close to a grizzly bear eating a salmon in Alaska
+07-16 13:33 fetcher      INFO         Id: 3dg3w1
+07-16 13:33 fetcher      INFO         Action: None; Already done
+07-16 13:33 root         INFO     Fetched imagelist
+07-16 13:33 root         INFO     Iterating over images:
+07-16 13:33 root         INFO     1: mYLD8Qu.jpg
+07-16 13:33 dreamify     INFO     Dreamifier initiated
+07-16 13:33 coredd_loadmodel INFO     Models loaded
+
+07-16 13:33 coredd_loadmodel INFO     Models patched
+07-16 13:33 dreamify     INFO     Image Loaded
+07-16 13:33 dreamify     INFO     Image resized
+07-16 13:33 dreamify     INFO     Calling coredreamifier
+07-16 13:33 coredd_dream INFO     Starting Octave 0
+07-16 13:33 coredd_dream INFO     [0, 0, 'inception_4c/output', (291, 291, 3)]
+07-16 13:34 root         INFO     Started new instance
+07-16 13:34 root         INFO     Calling Fetcher
+07-16 13:34 fetcher      INFO     Fetcher initiated
+07-16 13:34 fetcher      INFO     Timestamp: 1437033867
+07-16 13:34 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 13:34 fetcher      INFO     1
+07-16 13:34 fetcher      INFO     Title: Traffic stats for /r/pics are now public
+07-16 13:34 fetcher      INFO         Id: 3d12ek
+07-16 13:34 fetcher      INFO         http://www.reddit.com/r/pics/comments/3d12ek/traffic_stats_for_rpics_are_now_public/
+07-16 13:34 fetcher      INFO         http://www.reddit.com/r/pics/comments/3d12ek/traffic_stats_for_rpics_are_now_public/
+07-16 13:34 fetcher      WARNING      Action: Ignored; Not an image url
+07-16 13:34 fetcher      INFO     2
+07-16 13:34 fetcher      INFO     Title: I'd planned this photo years ago as long as I had a son and was still in the military. My dad and I, and my son and I.
+07-16 13:34 fetcher      INFO         Id: 3dgac2
+07-16 13:34 fetcher      INFO         http://i.imgur.com/mYLD8Qu.jpg
+07-16 13:34 fetcher      INFO         http://i.imgur.com/mYLD8Qu.jpg
+07-16 13:34 fetcher      INFO         >Appended to imagelist: [u'mYLD8Qu.jpg', u'3dgac2', u"I'd planned this photo years ago as long as I had a son and was still in the military. My dad and I, and my son and I.", 1600]
+07-16 13:34 fetcher      INFO         Action: Downloaded
+07-16 13:34 fetcher      INFO     3
+07-16 13:34 fetcher      INFO     Title: Accidentally got too close to a grizzly bear eating a salmon in Alaska
+07-16 13:34 fetcher      INFO         Id: 3dg3w1
+07-16 13:34 fetcher      INFO         Action: None; Already done
+07-16 13:34 root         INFO     Fetched imagelist
+07-16 13:34 root         INFO     Iterating over images:
+07-16 13:34 root         INFO     1: mYLD8Qu.jpg
+07-16 13:34 dreamify     INFO     Dreamifier initiated
+07-16 13:34 coredd_loadmodel INFO     Models loaded
+
+07-16 13:34 coredd_loadmodel INFO     Models patched
+07-16 13:34 dreamify     INFO     Image Loaded
+07-16 13:34 dreamify     INFO     Image resized
+07-16 13:34 dreamify     INFO     Calling coredreamifier
+07-16 13:34 coredd_dream INFO     Starting Octave 0
+07-16 13:34 coredd_dream INFO     [0, 0, 'inception_4c/output', (291, 291, 3)]
+07-16 13:34 coredd_dream INFO     [0, 1, 'inception_4c/output', (291, 291, 3)]
+07-16 13:34 coredd_dream INFO     [0, 2, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     [0, 3, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     [0, 4, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     [0, 5, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     [0, 6, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     [0, 7, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     [0, 8, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     [0, 9, 'inception_4c/output', (291, 291, 3)]
+07-16 13:35 coredd_dream INFO     Starting Octave 1
+07-16 13:35 coredd_dream INFO     [1, 0, 'inception_4c/output', (408, 408, 3)]
+07-16 13:35 coredd_dream INFO     [1, 1, 'inception_4c/output', (408, 408, 3)]
+07-16 13:35 coredd_dream INFO     [1, 2, 'inception_4c/output', (408, 408, 3)]
+07-16 13:36 coredd_dream INFO     [1, 3, 'inception_4c/output', (408, 408, 3)]
+07-16 13:36 coredd_dream INFO     [1, 4, 'inception_4c/output', (408, 408, 3)]
+07-16 13:36 coredd_dream INFO     [1, 5, 'inception_4c/output', (408, 408, 3)]
+07-16 13:36 coredd_dream INFO     [1, 6, 'inception_4c/output', (408, 408, 3)]
+07-16 13:36 coredd_dream INFO     [1, 7, 'inception_4c/output', (408, 408, 3)]
+07-16 13:36 coredd_dream INFO     [1, 8, 'inception_4c/output', (408, 408, 3)]
+07-16 13:37 coredd_dream INFO     [1, 9, 'inception_4c/output', (408, 408, 3)]
+07-16 13:37 coredd_dream INFO     Starting Octave 2
+07-16 13:37 coredd_dream INFO     [2, 0, 'inception_4c/output', (571, 571, 3)]
+07-16 13:38 coredd_dream INFO     [2, 1, 'inception_4c/output', (571, 571, 3)]
+07-16 13:38 coredd_dream INFO     [2, 2, 'inception_4c/output', (571, 571, 3)]
+07-16 13:38 coredd_dream INFO     [2, 3, 'inception_4c/output', (571, 571, 3)]
+07-16 13:39 coredd_dream INFO     [2, 4, 'inception_4c/output', (571, 571, 3)]
+07-16 13:39 coredd_dream INFO     [2, 5, 'inception_4c/output', (571, 571, 3)]
+07-16 13:39 coredd_dream INFO     [2, 6, 'inception_4c/output', (571, 571, 3)]
+07-16 13:40 coredd_dream INFO     [2, 7, 'inception_4c/output', (571, 571, 3)]
+07-16 13:40 coredd_dream INFO     [2, 8, 'inception_4c/output', (571, 571, 3)]
+07-16 13:40 coredd_dream INFO     [2, 9, 'inception_4c/output', (571, 571, 3)]
+07-16 13:40 coredd_dream INFO     Starting Octave 3
+07-16 13:41 coredd_dream INFO     [3, 0, 'inception_4c/output', (800, 800, 3)]
+07-16 13:41 coredd_dream INFO     [3, 1, 'inception_4c/output', (800, 800, 3)]
+07-16 13:42 coredd_dream INFO     [3, 2, 'inception_4c/output', (800, 800, 3)]
+07-16 13:43 coredd_dream INFO     [3, 3, 'inception_4c/output', (800, 800, 3)]
+07-16 13:43 coredd_dream INFO     [3, 4, 'inception_4c/output', (800, 800, 3)]
+07-16 13:43 coredd_dream INFO     [3, 5, 'inception_4c/output', (800, 800, 3)]
+07-16 13:44 coredd_dream INFO     [3, 6, 'inception_4c/output', (800, 800, 3)]
+07-16 13:44 coredd_dream INFO     [3, 7, 'inception_4c/output', (800, 800, 3)]
+07-16 13:45 coredd_dream INFO     [3, 8, 'inception_4c/output', (800, 800, 3)]
+07-16 13:45 coredd_dream INFO     [3, 9, 'inception_4c/output', (800, 800, 3)]
+07-16 13:45 imgurpost    INFO     Imgur posting initiated
+07-16 13:45 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 13:45 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 13:45 imgurpost    INFO     Image uploded
+07-16 13:45 imgurpost    INFO     http://i.imgur.com/GQJc8Jd.jpg
+07-16 13:45 root         INFO     Imgur link: http://i.imgur.com/GQJc8Jd.jpg
+07-16 13:45 root         INFO     COMPLETE
+07-16 13:45 root         INFO     **************************************
+07-16 17:49 root         INFO     Started new instance
+07-16 17:49 root         INFO     Calling Fetcher
+07-16 17:49 fetcher      INFO     Fetcher initiated
+07-16 17:49 fetcher      INFO     Timestamp: 1437049164
+07-16 17:49 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 17:49 fetcher      INFO     1
+07-16 17:49 fetcher      INFO     Title: second TEST POST
+07-16 17:49 fetcher      INFO         Id: 3dht3s
+07-16 17:49 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 17:49 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 17:49 fetcher      INFO         >Appended to imagelist: [u'fefe.jpg', u'3dht3s', u'second TEST POST', 580, u'https://www.reddit.com/r/sometimesitestthings/comments/3dht3s/second_test_post/']
+07-16 17:49 fetcher      INFO         Action: Downloaded
+07-16 17:49 fetcher      INFO     2
+07-16 17:49 fetcher      INFO     Title: really chew
+07-16 17:49 fetcher      INFO         Id: 3d04oc
+07-16 17:49 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 17:49 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 17:49 fetcher      INFO         >Appended to imagelist: [u'QIrtsNb.jpg', u'3d04oc', u'really chew', 962, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04oc/really_chew/']
+07-16 17:49 fetcher      INFO         Action: Downloaded
+07-16 17:49 fetcher      INFO     3
+07-16 17:49 fetcher      INFO     Title: chew chew chew
+07-16 17:49 fetcher      INFO         Id: 3d04n2
+07-16 17:49 fetcher      INFO         http://imgur.com/Qzg4eiH
+07-16 17:49 fetcher      INFO         Redirecting to https://i.imgur.com/Qzg4eiH.jpg
+07-16 17:49 fetcher      INFO         https://i.imgur.com/Qzg4eiH.jpg
+07-16 17:50 fetcher      INFO         >Appended to imagelist: ['Qzg4eiH.jpg', u'3d04n2', u'chew chew chew', 2988, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04n2/chew_chew_chew/']
+07-16 17:50 fetcher      INFO         Action: Downloaded
+07-16 17:50 root         INFO     Fetched imagelist
+07-16 17:50 root         INFO     Iterating over images:
+07-16 17:50 root         INFO     1: fefe.jpg
+07-16 17:50 dreamify     INFO     Dreamifier initiated
+07-16 17:50 coredd_loadmodel INFO     Models loaded
+
+07-16 17:50 coredd_loadmodel INFO     Models patched
+07-16 17:50 dreamify     INFO     Image Loaded
+07-16 17:50 dreamify     INFO     Image resized
+07-16 17:50 dreamify     INFO     Calling coredreamifier
+07-16 17:50 coredd_dream INFO     Starting Octave 0
+07-16 17:50 coredd_dream INFO     [0, 0, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 1, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 2, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 3, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 4, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 5, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 6, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 7, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 8, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     [0, 9, 'inception_4c/output', (194, 291, 3)]
+07-16 17:50 coredd_dream INFO     Starting Octave 1
+07-16 17:50 coredd_dream INFO     [1, 0, 'inception_4c/output', (272, 408, 3)]
+07-16 17:50 coredd_dream INFO     [1, 1, 'inception_4c/output', (272, 408, 3)]
+07-16 17:50 coredd_dream INFO     [1, 2, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     [1, 3, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     [1, 4, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     [1, 5, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     [1, 6, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     [1, 7, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     [1, 8, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     [1, 9, 'inception_4c/output', (272, 408, 3)]
+07-16 17:51 coredd_dream INFO     Starting Octave 2
+07-16 17:52 coredd_dream INFO     [2, 0, 'inception_4c/output', (381, 571, 3)]
+07-16 17:52 coredd_dream INFO     [2, 1, 'inception_4c/output', (381, 571, 3)]
+07-16 17:52 coredd_dream INFO     [2, 2, 'inception_4c/output', (381, 571, 3)]
+07-16 17:52 coredd_dream INFO     [2, 3, 'inception_4c/output', (381, 571, 3)]
+07-16 17:52 coredd_dream INFO     [2, 4, 'inception_4c/output', (381, 571, 3)]
+07-16 17:52 coredd_dream INFO     [2, 5, 'inception_4c/output', (381, 571, 3)]
+07-16 17:53 coredd_dream INFO     [2, 6, 'inception_4c/output', (381, 571, 3)]
+07-16 17:53 coredd_dream INFO     [2, 7, 'inception_4c/output', (381, 571, 3)]
+07-16 17:53 coredd_dream INFO     [2, 8, 'inception_4c/output', (381, 571, 3)]
+07-16 17:53 coredd_dream INFO     [2, 9, 'inception_4c/output', (381, 571, 3)]
+07-16 17:53 coredd_dream INFO     Starting Octave 3
+07-16 17:53 coredd_dream INFO     [3, 0, 'inception_4c/output', (534, 800, 3)]
+07-16 17:54 coredd_dream INFO     [3, 1, 'inception_4c/output', (534, 800, 3)]
+07-16 17:54 coredd_dream INFO     [3, 2, 'inception_4c/output', (534, 800, 3)]
+07-16 17:54 coredd_dream INFO     [3, 3, 'inception_4c/output', (534, 800, 3)]
+07-16 17:55 coredd_dream INFO     [3, 4, 'inception_4c/output', (534, 800, 3)]
+07-16 17:55 coredd_dream INFO     [3, 5, 'inception_4c/output', (534, 800, 3)]
+07-16 17:55 coredd_dream INFO     [3, 6, 'inception_4c/output', (534, 800, 3)]
+07-16 17:56 coredd_dream INFO     [3, 7, 'inception_4c/output', (534, 800, 3)]
+07-16 17:56 coredd_dream INFO     [3, 8, 'inception_4c/output', (534, 800, 3)]
+07-16 17:56 coredd_dream INFO     [3, 9, 'inception_4c/output', (534, 800, 3)]
+07-16 17:56 imgurpost    INFO     Imgur posting initiated
+07-16 17:56 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 17:56 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 17:56 imgurpost    INFO     Image uploded
+07-16 17:56 imgurpost    INFO     http://i.imgur.com/AyMOHm6.jpg
+07-16 17:56 root         INFO     Imgur link: http://i.imgur.com/AyMOHm6.jpg
+07-16 17:58 root         INFO     Started new instance
+07-16 17:58 root         INFO     Calling Fetcher
+07-16 17:58 fetcher      INFO     Fetcher initiated
+07-16 17:58 fetcher      INFO     Timestamp: 1437049738
+07-16 17:58 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): update_checker.bryceboe.com
+07-16 17:59 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 17:59 fetcher      INFO     1
+07-16 17:59 fetcher      INFO     Title: second TEST POST
+07-16 17:59 fetcher      INFO         Id: 3dht3s
+07-16 17:59 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 17:59 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 17:59 fetcher      INFO         >Appended to imagelist: [u'fefe.jpg', u'3dht3s', u'second TEST POST', 580, u'https://www.reddit.com/r/sometimesitestthings/comments/3dht3s/second_test_post/']
+07-16 17:59 fetcher      INFO         Action: Downloaded
+07-16 17:59 fetcher      INFO     2
+07-16 17:59 fetcher      INFO     Title: really chew
+07-16 17:59 fetcher      INFO         Id: 3d04oc
+07-16 17:59 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 17:59 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 17:59 fetcher      INFO         >Appended to imagelist: [u'QIrtsNb.jpg', u'3d04oc', u'really chew', 962, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04oc/really_chew/']
+07-16 17:59 fetcher      INFO         Action: Downloaded
+07-16 17:59 fetcher      INFO     3
+07-16 17:59 fetcher      INFO     Title: chew chew chew
+07-16 17:59 fetcher      INFO         Id: 3d04n2
+07-16 17:59 fetcher      INFO         http://imgur.com/Qzg4eiH
+07-16 17:59 fetcher      INFO         Redirecting to https://i.imgur.com/Qzg4eiH.jpg
+07-16 17:59 fetcher      INFO         https://i.imgur.com/Qzg4eiH.jpg
+07-16 17:59 fetcher      INFO         >Appended to imagelist: ['Qzg4eiH.jpg', u'3d04n2', u'chew chew chew', 2988, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04n2/chew_chew_chew/']
+07-16 17:59 fetcher      INFO         Action: Downloaded
+07-16 17:59 root         INFO     Fetched imagelist
+07-16 17:59 root         INFO     Iterating over images:
+07-16 17:59 root         INFO     1: fefe.jpg
+07-16 17:59 dreamify     INFO     Dreamifier initiated
+07-16 17:59 coredd_loadmodel INFO     Models loaded
+
+07-16 17:59 coredd_loadmodel INFO     Models patched
+07-16 17:59 dreamify     INFO     Image Loaded
+07-16 17:59 dreamify     INFO     Image resized
+07-16 17:59 dreamify     INFO     Calling coredreamifier
+07-16 17:59 coredd_dream INFO     Starting Octave 0
+07-16 17:59 coredd_dream INFO     [0, 0, 'inception_4c/output', (194, 291, 3)]
+07-16 17:59 coredd_dream INFO     [0, 1, 'inception_4c/output', (194, 291, 3)]
+07-16 17:59 coredd_dream INFO     [0, 2, 'inception_4c/output', (194, 291, 3)]
+07-16 17:59 coredd_dream INFO     [0, 3, 'inception_4c/output', (194, 291, 3)]
+07-16 17:59 coredd_dream INFO     [0, 4, 'inception_4c/output', (194, 291, 3)]
+07-16 17:59 coredd_dream INFO     [0, 5, 'inception_4c/output', (194, 291, 3)]
+07-16 18:00 coredd_dream INFO     [0, 6, 'inception_4c/output', (194, 291, 3)]
+07-16 18:00 coredd_dream INFO     [0, 7, 'inception_4c/output', (194, 291, 3)]
+07-16 18:00 coredd_dream INFO     [0, 8, 'inception_4c/output', (194, 291, 3)]
+07-16 18:00 coredd_dream INFO     [0, 9, 'inception_4c/output', (194, 291, 3)]
+07-16 18:00 coredd_dream INFO     Starting Octave 1
+07-16 18:00 coredd_dream INFO     [1, 0, 'inception_4c/output', (272, 408, 3)]
+07-16 18:00 coredd_dream INFO     [1, 1, 'inception_4c/output', (272, 408, 3)]
+07-16 18:00 coredd_dream INFO     [1, 2, 'inception_4c/output', (272, 408, 3)]
+07-16 18:00 coredd_dream INFO     [1, 3, 'inception_4c/output', (272, 408, 3)]
+07-16 18:00 coredd_dream INFO     [1, 4, 'inception_4c/output', (272, 408, 3)]
+07-16 18:00 coredd_dream INFO     [1, 5, 'inception_4c/output', (272, 408, 3)]
+07-16 18:01 coredd_dream INFO     [1, 6, 'inception_4c/output', (272, 408, 3)]
+07-16 18:01 coredd_dream INFO     [1, 7, 'inception_4c/output', (272, 408, 3)]
+07-16 18:01 coredd_dream INFO     [1, 8, 'inception_4c/output', (272, 408, 3)]
+07-16 18:01 coredd_dream INFO     [1, 9, 'inception_4c/output', (272, 408, 3)]
+07-16 18:01 coredd_dream INFO     Starting Octave 2
+07-16 18:01 coredd_dream INFO     [2, 0, 'inception_4c/output', (381, 571, 3)]
+07-16 18:01 coredd_dream INFO     [2, 1, 'inception_4c/output', (381, 571, 3)]
+07-16 18:02 coredd_dream INFO     [2, 2, 'inception_4c/output', (381, 571, 3)]
+07-16 18:02 coredd_dream INFO     [2, 3, 'inception_4c/output', (381, 571, 3)]
+07-16 18:02 coredd_dream INFO     [2, 4, 'inception_4c/output', (381, 571, 3)]
+07-16 18:02 coredd_dream INFO     [2, 5, 'inception_4c/output', (381, 571, 3)]
+07-16 18:03 coredd_dream INFO     [2, 6, 'inception_4c/output', (381, 571, 3)]
+07-16 18:03 coredd_dream INFO     [2, 7, 'inception_4c/output', (381, 571, 3)]
+07-16 18:03 coredd_dream INFO     [2, 8, 'inception_4c/output', (381, 571, 3)]
+07-16 18:03 coredd_dream INFO     [2, 9, 'inception_4c/output', (381, 571, 3)]
+07-16 18:03 coredd_dream INFO     Starting Octave 3
+07-16 18:04 coredd_dream INFO     [3, 0, 'inception_4c/output', (534, 800, 3)]
+07-16 18:04 coredd_dream INFO     [3, 1, 'inception_4c/output', (534, 800, 3)]
+07-16 18:04 coredd_dream INFO     [3, 2, 'inception_4c/output', (534, 800, 3)]
+07-16 18:05 coredd_dream INFO     [3, 3, 'inception_4c/output', (534, 800, 3)]
+07-16 18:05 coredd_dream INFO     [3, 4, 'inception_4c/output', (534, 800, 3)]
+07-16 18:06 coredd_dream INFO     [3, 5, 'inception_4c/output', (534, 800, 3)]
+07-16 18:06 coredd_dream INFO     [3, 6, 'inception_4c/output', (534, 800, 3)]
+07-16 18:07 coredd_dream INFO     [3, 7, 'inception_4c/output', (534, 800, 3)]
+07-16 18:07 coredd_dream INFO     [3, 8, 'inception_4c/output', (534, 800, 3)]
+07-16 18:08 coredd_dream INFO     [3, 9, 'inception_4c/output', (534, 800, 3)]
+07-16 18:08 imgurpost    INFO     Imgur posting initiated
+07-16 18:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:08 imgurpost    INFO     Image uploded
+07-16 18:08 imgurpost    INFO     http://i.imgur.com/JfIqyRv.jpg
+07-16 18:08 root         INFO     Imgur link: http://i.imgur.com/JfIqyRv.jpg
+07-16 18:08 redditpost   INFO     Reddit Post initiated
+07-16 18:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.reddit.com
+07-16 18:08 redditpost   INFO     Comment (link to original) added
+07-16 18:15 root         INFO     Started new instance
+07-16 18:15 root         INFO     Calling Fetcher
+07-16 18:15 fetcher      INFO     Fetcher initiated
+07-16 18:15 fetcher      INFO     Timestamp: 1437050745
+07-16 18:15 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:15 fetcher      INFO     1
+07-16 18:15 fetcher      INFO     Title: second TEST POST
+07-16 18:15 fetcher      INFO         Id: 3dht3s
+07-16 18:15 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 18:15 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 18:16 fetcher      INFO         >Appended to imagelist: [u'fefe.jpg', u'3dht3s', u'second TEST POST', 580, u'https://www.reddit.com/r/sometimesitestthings/comments/3dht3s/second_test_post/']
+07-16 18:16 fetcher      INFO         Action: Downloaded
+07-16 18:16 fetcher      INFO     2
+07-16 18:16 fetcher      INFO     Title: really chew
+07-16 18:16 fetcher      INFO         Id: 3d04oc
+07-16 18:16 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 18:16 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 18:16 fetcher      INFO         >Appended to imagelist: [u'QIrtsNb.jpg', u'3d04oc', u'really chew', 962, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04oc/really_chew/']
+07-16 18:16 fetcher      INFO         Action: Downloaded
+07-16 18:16 fetcher      INFO     3
+07-16 18:16 fetcher      INFO     Title: chew chew chew
+07-16 18:16 fetcher      INFO         Id: 3d04n2
+07-16 18:16 fetcher      INFO         http://imgur.com/Qzg4eiH
+07-16 18:16 fetcher      INFO         Redirecting to https://i.imgur.com/Qzg4eiH.jpg
+07-16 18:16 fetcher      INFO         https://i.imgur.com/Qzg4eiH.jpg
+07-16 18:16 fetcher      INFO         >Appended to imagelist: ['Qzg4eiH.jpg', u'3d04n2', u'chew chew chew', 2988, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04n2/chew_chew_chew/']
+07-16 18:16 fetcher      INFO         Action: Downloaded
+07-16 18:16 root         INFO     Fetched imagelist
+07-16 18:16 root         INFO     Iterating over images:
+07-16 18:16 root         INFO     1: fefe.jpg
+07-16 18:16 dreamify     INFO     Dreamifier initiated
+07-16 18:16 coredd_loadmodel INFO     Models loaded
+
+07-16 18:16 coredd_loadmodel INFO     Models patched
+07-16 18:16 dreamify     INFO     Image Loaded
+07-16 18:16 dreamify     INFO     Image resized
+07-16 18:16 dreamify     INFO     Calling coredreamifier
+07-16 18:16 coredd_dream INFO     Starting Octave 0
+07-16 18:16 coredd_dream INFO     [0, 0, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 1, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 2, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 3, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 4, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 5, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 6, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 7, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 8, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     [0, 9, 'inception_4c/output', (194, 291, 3)]
+07-16 18:16 coredd_dream INFO     Starting Octave 1
+07-16 18:17 coredd_dream INFO     [1, 0, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 1, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 2, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 3, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 4, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 5, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 6, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 7, 'inception_4c/output', (272, 408, 3)]
+07-16 18:17 coredd_dream INFO     [1, 8, 'inception_4c/output', (272, 408, 3)]
+07-16 18:18 coredd_dream INFO     [1, 9, 'inception_4c/output', (272, 408, 3)]
+07-16 18:18 coredd_dream INFO     Starting Octave 2
+07-16 18:18 coredd_dream INFO     [2, 0, 'inception_4c/output', (381, 571, 3)]
+07-16 18:18 coredd_dream INFO     [2, 1, 'inception_4c/output', (381, 571, 3)]
+07-16 18:18 coredd_dream INFO     [2, 2, 'inception_4c/output', (381, 571, 3)]
+07-16 18:18 coredd_dream INFO     [2, 3, 'inception_4c/output', (381, 571, 3)]
+07-16 18:19 coredd_dream INFO     [2, 4, 'inception_4c/output', (381, 571, 3)]
+07-16 18:19 coredd_dream INFO     [2, 5, 'inception_4c/output', (381, 571, 3)]
+07-16 18:19 coredd_dream INFO     [2, 6, 'inception_4c/output', (381, 571, 3)]
+07-16 18:19 coredd_dream INFO     [2, 7, 'inception_4c/output', (381, 571, 3)]
+07-16 18:19 coredd_dream INFO     [2, 8, 'inception_4c/output', (381, 571, 3)]
+07-16 18:20 coredd_dream INFO     [2, 9, 'inception_4c/output', (381, 571, 3)]
+07-16 18:20 coredd_dream INFO     Starting Octave 3
+07-16 18:20 coredd_dream INFO     [3, 0, 'inception_4c/output', (534, 800, 3)]
+07-16 18:20 coredd_dream INFO     [3, 1, 'inception_4c/output', (534, 800, 3)]
+07-16 18:21 coredd_dream INFO     [3, 2, 'inception_4c/output', (534, 800, 3)]
+07-16 18:21 coredd_dream INFO     [3, 3, 'inception_4c/output', (534, 800, 3)]
+07-16 18:22 coredd_dream INFO     [3, 4, 'inception_4c/output', (534, 800, 3)]
+07-16 18:22 coredd_dream INFO     [3, 5, 'inception_4c/output', (534, 800, 3)]
+07-16 18:22 coredd_dream INFO     [3, 6, 'inception_4c/output', (534, 800, 3)]
+07-16 18:23 coredd_dream INFO     [3, 7, 'inception_4c/output', (534, 800, 3)]
+07-16 18:23 coredd_dream INFO     [3, 8, 'inception_4c/output', (534, 800, 3)]
+07-16 18:24 coredd_dream INFO     [3, 9, 'inception_4c/output', (534, 800, 3)]
+07-16 18:24 imgurpost    INFO     Imgur posting initiated
+07-16 18:24 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:24 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:24 imgurpost    INFO     Image uploded
+07-16 18:24 imgurpost    INFO     http://i.imgur.com/U1u380p.jpg
+07-16 18:24 root         INFO     Imgur link: http://i.imgur.com/U1u380p.jpg
+07-16 18:24 redditpost   INFO     Reddit Post initiated
+07-16 18:24 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:24 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.reddit.com
+07-16 18:24 redditpost   INFO     Comment (link to original) added
+07-16 18:26 root         INFO     Started new instance
+07-16 18:26 root         INFO     Calling Fetcher
+07-16 18:26 fetcher      INFO     Fetcher initiated
+07-16 18:26 fetcher      INFO     Timestamp: 1437051408
+07-16 18:26 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:26 fetcher      INFO     1
+07-16 18:26 fetcher      INFO     Title: second TEST POST
+07-16 18:26 fetcher      INFO         Id: 3dht3s
+07-16 18:26 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 18:26 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 18:27 fetcher      INFO         >Appended to imagelist: [u'fefe.jpg', u'3dht3s', u'second TEST POST', 580, u'https://www.reddit.com/r/sometimesitestthings/comments/3dht3s/second_test_post/']
+07-16 18:27 fetcher      INFO         Action: Downloaded
+07-16 18:27 fetcher      INFO     2
+07-16 18:27 fetcher      INFO     Title: really chew
+07-16 18:27 fetcher      INFO         Id: 3d04oc
+07-16 18:27 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 18:27 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 18:27 fetcher      INFO         >Appended to imagelist: [u'QIrtsNb.jpg', u'3d04oc', u'really chew', 962, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04oc/really_chew/']
+07-16 18:27 fetcher      INFO         Action: Downloaded
+07-16 18:27 fetcher      INFO     3
+07-16 18:27 fetcher      INFO     Title: chew chew chew
+07-16 18:27 fetcher      INFO         Id: 3d04n2
+07-16 18:27 fetcher      INFO         http://imgur.com/Qzg4eiH
+07-16 18:27 fetcher      INFO         Redirecting to https://i.imgur.com/Qzg4eiH.jpg
+07-16 18:27 fetcher      INFO         https://i.imgur.com/Qzg4eiH.jpg
+07-16 18:27 fetcher      INFO         >Appended to imagelist: ['Qzg4eiH.jpg', u'3d04n2', u'chew chew chew', 2988, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04n2/chew_chew_chew/']
+07-16 18:27 fetcher      INFO         Action: Downloaded
+07-16 18:27 root         INFO     Fetched imagelist
+07-16 18:27 root         INFO     Iterating over images:
+07-16 18:27 root         INFO     1: fefe.jpg
+07-16 18:27 dreamify     INFO     Dreamifier initiated
+07-16 18:27 coredd_loadmodel INFO     Models loaded
+
+07-16 18:27 coredd_loadmodel INFO     Models patched
+07-16 18:27 dreamify     INFO     Image Loaded
+07-16 18:27 dreamify     INFO     Image resized
+07-16 18:27 dreamify     INFO     Calling coredreamifier
+07-16 18:27 coredd_dream INFO     Starting Octave 0
+07-16 18:27 coredd_dream INFO     [0, 0, 'inception_4c/output', (194, 291, 3)]
+07-16 18:27 coredd_dream INFO     [0, 1, 'inception_4c/output', (194, 291, 3)]
+07-16 18:27 coredd_dream INFO     [0, 2, 'inception_4c/output', (194, 291, 3)]
+07-16 18:27 coredd_dream INFO     [0, 3, 'inception_4c/output', (194, 291, 3)]
+07-16 18:27 coredd_dream INFO     [0, 4, 'inception_4c/output', (194, 291, 3)]
+07-16 18:27 coredd_dream INFO     [0, 5, 'inception_4c/output', (194, 291, 3)]
+07-16 18:27 coredd_dream INFO     [0, 6, 'inception_4c/output', (194, 291, 3)]
+07-16 18:27 coredd_dream INFO     [0, 7, 'inception_4c/output', (194, 291, 3)]
+07-16 18:28 coredd_dream INFO     [0, 8, 'inception_4c/output', (194, 291, 3)]
+07-16 18:28 coredd_dream INFO     [0, 9, 'inception_4c/output', (194, 291, 3)]
+07-16 18:28 coredd_dream INFO     Starting Octave 1
+07-16 18:28 coredd_dream INFO     [1, 0, 'inception_4c/output', (272, 408, 3)]
+07-16 18:28 coredd_dream INFO     [1, 1, 'inception_4c/output', (272, 408, 3)]
+07-16 18:28 coredd_dream INFO     [1, 2, 'inception_4c/output', (272, 408, 3)]
+07-16 18:28 coredd_dream INFO     [1, 3, 'inception_4c/output', (272, 408, 3)]
+07-16 18:28 coredd_dream INFO     [1, 4, 'inception_4c/output', (272, 408, 3)]
+07-16 18:28 coredd_dream INFO     [1, 5, 'inception_4c/output', (272, 408, 3)]
+07-16 18:29 coredd_dream INFO     [1, 6, 'inception_4c/output', (272, 408, 3)]
+07-16 18:29 coredd_dream INFO     [1, 7, 'inception_4c/output', (272, 408, 3)]
+07-16 18:29 coredd_dream INFO     [1, 8, 'inception_4c/output', (272, 408, 3)]
+07-16 18:29 coredd_dream INFO     [1, 9, 'inception_4c/output', (272, 408, 3)]
+07-16 18:29 coredd_dream INFO     Starting Octave 2
+07-16 18:29 coredd_dream INFO     [2, 0, 'inception_4c/output', (381, 571, 3)]
+07-16 18:29 coredd_dream INFO     [2, 1, 'inception_4c/output', (381, 571, 3)]
+07-16 18:30 coredd_dream INFO     [2, 2, 'inception_4c/output', (381, 571, 3)]
+07-16 18:30 coredd_dream INFO     [2, 3, 'inception_4c/output', (381, 571, 3)]
+07-16 18:30 coredd_dream INFO     [2, 4, 'inception_4c/output', (381, 571, 3)]
+07-16 18:30 coredd_dream INFO     [2, 5, 'inception_4c/output', (381, 571, 3)]
+07-16 18:30 coredd_dream INFO     [2, 6, 'inception_4c/output', (381, 571, 3)]
+07-16 18:31 coredd_dream INFO     [2, 7, 'inception_4c/output', (381, 571, 3)]
+07-16 18:31 coredd_dream INFO     [2, 8, 'inception_4c/output', (381, 571, 3)]
+07-16 18:31 coredd_dream INFO     [2, 9, 'inception_4c/output', (381, 571, 3)]
+07-16 18:31 coredd_dream INFO     Starting Octave 3
+07-16 18:31 coredd_dream INFO     [3, 0, 'inception_4c/output', (534, 800, 3)]
+07-16 18:32 coredd_dream INFO     [3, 1, 'inception_4c/output', (534, 800, 3)]
+07-16 18:32 coredd_dream INFO     [3, 2, 'inception_4c/output', (534, 800, 3)]
+07-16 18:32 coredd_dream INFO     [3, 3, 'inception_4c/output', (534, 800, 3)]
+07-16 18:33 coredd_dream INFO     [3, 4, 'inception_4c/output', (534, 800, 3)]
+07-16 18:33 coredd_dream INFO     [3, 5, 'inception_4c/output', (534, 800, 3)]
+07-16 18:33 coredd_dream INFO     [3, 6, 'inception_4c/output', (534, 800, 3)]
+07-16 18:34 coredd_dream INFO     [3, 7, 'inception_4c/output', (534, 800, 3)]
+07-16 18:34 coredd_dream INFO     [3, 8, 'inception_4c/output', (534, 800, 3)]
+07-16 18:35 coredd_dream INFO     [3, 9, 'inception_4c/output', (534, 800, 3)]
+07-16 18:35 imgurpost    INFO     Imgur posting initiated
+07-16 18:35 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:35 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:35 imgurpost    INFO     Image uploded
+07-16 18:35 imgurpost    INFO     http://i.imgur.com/XJlG7f5.jpg
+07-16 18:35 root         INFO     Imgur link: http://i.imgur.com/XJlG7f5.jpg
+07-16 18:35 redditpost   INFO     Reddit Post initiated
+07-16 18:35 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:35 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.reddit.com
+07-16 18:35 redditpost   INFO     Comment (link to original) added
+07-16 18:35 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:37 root         INFO     Started new instance
+07-16 18:37 root         INFO     Calling Fetcher
+07-16 18:37 fetcher      INFO     Fetcher initiated
+07-16 18:37 fetcher      INFO     Timestamp: 1437052043
+07-16 18:37 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:37 fetcher      INFO     1
+07-16 18:37 fetcher      INFO     Title: second TEST POST
+07-16 18:37 fetcher      INFO         Id: 3dht3s
+07-16 18:37 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 18:37 fetcher      INFO         http://www.theaureview.com/sites/default/files/fefe.jpg
+07-16 18:37 fetcher      INFO         >Appended to imagelist: [u'fefe.jpg', u'3dht3s', u'second TEST POST', 580, u'https://www.reddit.com/r/sometimesitestthings/comments/3dht3s/second_test_post/']
+07-16 18:37 fetcher      INFO         Action: Downloaded
+07-16 18:37 fetcher      INFO     2
+07-16 18:37 fetcher      INFO     Title: really chew
+07-16 18:37 fetcher      INFO         Id: 3d04oc
+07-16 18:37 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 18:37 fetcher      INFO         http://i.imgur.com/QIrtsNb.jpg
+07-16 18:37 fetcher      INFO         >Appended to imagelist: [u'QIrtsNb.jpg', u'3d04oc', u'really chew', 962, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04oc/really_chew/']
+07-16 18:37 fetcher      INFO         Action: Downloaded
+07-16 18:37 fetcher      INFO     3
+07-16 18:37 fetcher      INFO     Title: chew chew chew
+07-16 18:37 fetcher      INFO         Id: 3d04n2
+07-16 18:37 fetcher      INFO         http://imgur.com/Qzg4eiH
+07-16 18:37 fetcher      INFO         Redirecting to https://i.imgur.com/Qzg4eiH.jpg
+07-16 18:37 fetcher      INFO         https://i.imgur.com/Qzg4eiH.jpg
+07-16 18:37 fetcher      INFO         >Appended to imagelist: ['Qzg4eiH.jpg', u'3d04n2', u'chew chew chew', 2988, u'https://www.reddit.com/r/sometimesitestthings/comments/3d04n2/chew_chew_chew/']
+07-16 18:37 fetcher      INFO         Action: Downloaded
+07-16 18:37 root         INFO     Fetched imagelist
+07-16 18:37 root         INFO     Iterating over images:
+07-16 18:37 root         INFO     1: fefe.jpg
+07-16 18:37 dreamify     INFO     Dreamifier initiated
+07-16 18:37 coredd_loadmodel INFO     Models loaded
+
+07-16 18:38 coredd_loadmodel INFO     Models patched
+07-16 18:38 dreamify     INFO     Image Loaded
+07-16 18:38 dreamify     INFO     Image resized
+07-16 18:38 dreamify     INFO     Calling coredreamifier
+07-16 18:38 coredd_dream INFO     Starting Octave 0
+07-16 18:38 coredd_dream INFO     [0, 0, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 1, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 2, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 3, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 4, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 5, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 6, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 7, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 8, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     [0, 9, 'inception_4c/output', (194, 291, 3)]
+07-16 18:38 coredd_dream INFO     Starting Octave 1
+07-16 18:38 coredd_dream INFO     [1, 0, 'inception_4c/output', (272, 408, 3)]
+07-16 18:38 coredd_dream INFO     [1, 1, 'inception_4c/output', (272, 408, 3)]
+07-16 18:38 coredd_dream INFO     [1, 2, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     [1, 3, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     [1, 4, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     [1, 5, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     [1, 6, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     [1, 7, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     [1, 8, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     [1, 9, 'inception_4c/output', (272, 408, 3)]
+07-16 18:39 coredd_dream INFO     Starting Octave 2
+07-16 18:39 coredd_dream INFO     [2, 0, 'inception_4c/output', (381, 571, 3)]
+07-16 18:40 coredd_dream INFO     [2, 1, 'inception_4c/output', (381, 571, 3)]
+07-16 18:40 coredd_dream INFO     [2, 2, 'inception_4c/output', (381, 571, 3)]
+07-16 18:40 coredd_dream INFO     [2, 3, 'inception_4c/output', (381, 571, 3)]
+07-16 18:40 coredd_dream INFO     [2, 4, 'inception_4c/output', (381, 571, 3)]
+07-16 18:40 coredd_dream INFO     [2, 5, 'inception_4c/output', (381, 571, 3)]
+07-16 18:41 coredd_dream INFO     [2, 6, 'inception_4c/output', (381, 571, 3)]
+07-16 18:41 coredd_dream INFO     [2, 7, 'inception_4c/output', (381, 571, 3)]
+07-16 18:41 coredd_dream INFO     [2, 8, 'inception_4c/output', (381, 571, 3)]
+07-16 18:41 coredd_dream INFO     [2, 9, 'inception_4c/output', (381, 571, 3)]
+07-16 18:41 coredd_dream INFO     Starting Octave 3
+07-16 18:42 coredd_dream INFO     [3, 0, 'inception_4c/output', (534, 800, 3)]
+07-16 18:42 coredd_dream INFO     [3, 1, 'inception_4c/output', (534, 800, 3)]
+07-16 18:43 coredd_dream INFO     [3, 2, 'inception_4c/output', (534, 800, 3)]
+07-16 18:43 coredd_dream INFO     [3, 3, 'inception_4c/output', (534, 800, 3)]
+07-16 18:43 coredd_dream INFO     [3, 4, 'inception_4c/output', (534, 800, 3)]
+07-16 18:44 coredd_dream INFO     [3, 5, 'inception_4c/output', (534, 800, 3)]
+07-16 18:44 coredd_dream INFO     [3, 6, 'inception_4c/output', (534, 800, 3)]
+07-16 18:45 coredd_dream INFO     [3, 7, 'inception_4c/output', (534, 800, 3)]
+07-16 18:45 coredd_dream INFO     [3, 8, 'inception_4c/output', (534, 800, 3)]
+07-16 18:45 coredd_dream INFO     [3, 9, 'inception_4c/output', (534, 800, 3)]
+07-16 18:45 imgurpost    INFO     Imgur posting initiated
+07-16 18:45 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:45 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:46 imgurpost    INFO     Image uploded
+07-16 18:46 imgurpost    INFO     http://i.imgur.com/oz6UfLI.jpg
+07-16 18:46 root         INFO     Imgur link: http://i.imgur.com/oz6UfLI.jpg
+07-16 18:46 redditpost   INFO     Reddit Post initiated
+07-16 18:46 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:46 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.reddit.com
+07-16 18:46 redditpost   INFO     Comment (link to original) added
+07-16 18:46 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:46 commenter    INFO     Comment posted
+07-16 18:46 root         INFO     2: QIrtsNb.jpg
+07-16 18:46 dreamify     INFO     Dreamifier initiated
+07-16 18:46 coredd_loadmodel INFO     Models loaded
+
+07-16 18:46 coredd_loadmodel INFO     Models patched
+07-16 18:46 dreamify     INFO     Image Loaded
+07-16 18:46 dreamify     INFO     Image resized
+07-16 18:46 dreamify     INFO     Calling coredreamifier
+07-16 18:46 coredd_dream INFO     Starting Octave 0
+07-16 18:46 coredd_dream INFO     [0, 0, 'inception_4c/output', (212, 291, 3)]
+07-16 18:46 coredd_dream INFO     [0, 1, 'inception_4c/output', (212, 291, 3)]
+07-16 18:46 coredd_dream INFO     [0, 2, 'inception_4c/output', (212, 291, 3)]
+07-16 18:46 coredd_dream INFO     [0, 3, 'inception_4c/output', (212, 291, 3)]
+07-16 18:46 coredd_dream INFO     [0, 4, 'inception_4c/output', (212, 291, 3)]
+07-16 18:46 coredd_dream INFO     [0, 5, 'inception_4c/output', (212, 291, 3)]
+07-16 18:46 coredd_dream INFO     [0, 6, 'inception_4c/output', (212, 291, 3)]
+07-16 18:46 coredd_dream INFO     [0, 7, 'inception_4c/output', (212, 291, 3)]
+07-16 18:47 coredd_dream INFO     [0, 8, 'inception_4c/output', (212, 291, 3)]
+07-16 18:47 coredd_dream INFO     [0, 9, 'inception_4c/output', (212, 291, 3)]
+07-16 18:47 coredd_dream INFO     Starting Octave 1
+07-16 18:47 coredd_dream INFO     [1, 0, 'inception_4c/output', (297, 408, 3)]
+07-16 18:47 coredd_dream INFO     [1, 1, 'inception_4c/output', (297, 408, 3)]
+07-16 18:47 coredd_dream INFO     [1, 2, 'inception_4c/output', (297, 408, 3)]
+07-16 18:47 coredd_dream INFO     [1, 3, 'inception_4c/output', (297, 408, 3)]
+07-16 18:47 coredd_dream INFO     [1, 4, 'inception_4c/output', (297, 408, 3)]
+07-16 18:47 coredd_dream INFO     [1, 5, 'inception_4c/output', (297, 408, 3)]
+07-16 18:47 coredd_dream INFO     [1, 6, 'inception_4c/output', (297, 408, 3)]
+07-16 18:47 coredd_dream INFO     [1, 7, 'inception_4c/output', (297, 408, 3)]
+07-16 18:48 coredd_dream INFO     [1, 8, 'inception_4c/output', (297, 408, 3)]
+07-16 18:48 coredd_dream INFO     [1, 9, 'inception_4c/output', (297, 408, 3)]
+07-16 18:48 coredd_dream INFO     Starting Octave 2
+07-16 18:48 coredd_dream INFO     [2, 0, 'inception_4c/output', (416, 571, 3)]
+07-16 18:48 coredd_dream INFO     [2, 1, 'inception_4c/output', (416, 571, 3)]
+07-16 18:48 coredd_dream INFO     [2, 2, 'inception_4c/output', (416, 571, 3)]
+07-16 18:49 coredd_dream INFO     [2, 3, 'inception_4c/output', (416, 571, 3)]
+07-16 18:49 coredd_dream INFO     [2, 4, 'inception_4c/output', (416, 571, 3)]
+07-16 18:49 coredd_dream INFO     [2, 5, 'inception_4c/output', (416, 571, 3)]
+07-16 18:49 coredd_dream INFO     [2, 6, 'inception_4c/output', (416, 571, 3)]
+07-16 18:49 coredd_dream INFO     [2, 7, 'inception_4c/output', (416, 571, 3)]
+07-16 18:50 coredd_dream INFO     [2, 8, 'inception_4c/output', (416, 571, 3)]
+07-16 18:50 coredd_dream INFO     [2, 9, 'inception_4c/output', (416, 571, 3)]
+07-16 18:50 coredd_dream INFO     Starting Octave 3
+07-16 18:50 coredd_dream INFO     [3, 0, 'inception_4c/output', (583, 800, 3)]
+07-16 18:51 coredd_dream INFO     [3, 1, 'inception_4c/output', (583, 800, 3)]
+07-16 18:51 coredd_dream INFO     [3, 2, 'inception_4c/output', (583, 800, 3)]
+07-16 18:51 coredd_dream INFO     [3, 3, 'inception_4c/output', (583, 800, 3)]
+07-16 18:52 coredd_dream INFO     [3, 4, 'inception_4c/output', (583, 800, 3)]
+07-16 18:52 coredd_dream INFO     [3, 5, 'inception_4c/output', (583, 800, 3)]
+07-16 18:52 coredd_dream INFO     [3, 6, 'inception_4c/output', (583, 800, 3)]
+07-16 18:53 coredd_dream INFO     [3, 7, 'inception_4c/output', (583, 800, 3)]
+07-16 18:53 coredd_dream INFO     [3, 8, 'inception_4c/output', (583, 800, 3)]
+07-16 18:54 coredd_dream INFO     [3, 9, 'inception_4c/output', (583, 800, 3)]
+07-16 18:54 imgurpost    INFO     Imgur posting initiated
+07-16 18:54 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:54 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 18:54 imgurpost    INFO     Image uploded
+07-16 18:54 imgurpost    INFO     http://i.imgur.com/7ynrbN1.jpg
+07-16 18:54 root         INFO     Imgur link: http://i.imgur.com/7ynrbN1.jpg
+07-16 18:54 redditpost   INFO     Reddit Post initiated
+07-16 18:54 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:54 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.reddit.com
+07-16 18:54 redditpost   INFO     Comment (link to original) added
+07-16 18:54 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 18:54 commenter    INFO     Comment posted
+07-16 18:54 root         INFO     3: Qzg4eiH.jpg
+07-16 18:54 dreamify     INFO     Dreamifier initiated
+07-16 18:54 coredd_loadmodel INFO     Models loaded
+
+07-16 18:54 coredd_loadmodel INFO     Models patched
+07-16 18:54 dreamify     INFO     Image Loaded
+07-16 18:54 dreamify     INFO     Image resized
+07-16 18:54 dreamify     INFO     Calling coredreamifier
+07-16 18:54 coredd_dream INFO     Starting Octave 0
+07-16 18:54 coredd_dream INFO     [0, 0, 'inception_4c/output', (291, 291, 3)]
+07-16 18:54 coredd_dream INFO     [0, 1, 'inception_4c/output', (291, 291, 3)]
+07-16 18:54 coredd_dream INFO     [0, 2, 'inception_4c/output', (291, 291, 3)]
+07-16 18:54 coredd_dream INFO     [0, 3, 'inception_4c/output', (291, 291, 3)]
+07-16 18:55 coredd_dream INFO     [0, 4, 'inception_4c/output', (291, 291, 3)]
+07-16 18:55 coredd_dream INFO     [0, 5, 'inception_4c/output', (291, 291, 3)]
+07-16 18:55 coredd_dream INFO     [0, 6, 'inception_4c/output', (291, 291, 3)]
+07-16 18:55 coredd_dream INFO     [0, 7, 'inception_4c/output', (291, 291, 3)]
+07-16 18:55 coredd_dream INFO     [0, 8, 'inception_4c/output', (291, 291, 3)]
+07-16 18:55 coredd_dream INFO     [0, 9, 'inception_4c/output', (291, 291, 3)]
+07-16 18:55 coredd_dream INFO     Starting Octave 1
+07-16 18:55 coredd_dream INFO     [1, 0, 'inception_4c/output', (408, 408, 3)]
+07-16 18:55 coredd_dream INFO     [1, 1, 'inception_4c/output', (408, 408, 3)]
+07-16 18:55 coredd_dream INFO     [1, 2, 'inception_4c/output', (408, 408, 3)]
+07-16 18:55 coredd_dream INFO     [1, 3, 'inception_4c/output', (408, 408, 3)]
+07-16 18:56 coredd_dream INFO     [1, 4, 'inception_4c/output', (408, 408, 3)]
+07-16 18:56 coredd_dream INFO     [1, 5, 'inception_4c/output', (408, 408, 3)]
+07-16 18:56 coredd_dream INFO     [1, 6, 'inception_4c/output', (408, 408, 3)]
+07-16 18:56 coredd_dream INFO     [1, 7, 'inception_4c/output', (408, 408, 3)]
+07-16 18:56 coredd_dream INFO     [1, 8, 'inception_4c/output', (408, 408, 3)]
+07-16 18:56 coredd_dream INFO     [1, 9, 'inception_4c/output', (408, 408, 3)]
+07-16 18:56 coredd_dream INFO     Starting Octave 2
+07-16 18:56 coredd_dream INFO     [2, 0, 'inception_4c/output', (571, 571, 3)]
+07-16 18:57 coredd_dream INFO     [2, 1, 'inception_4c/output', (571, 571, 3)]
+07-16 18:58 coredd_dream INFO     [2, 2, 'inception_4c/output', (571, 571, 3)]
+07-16 18:58 coredd_dream INFO     [2, 3, 'inception_4c/output', (571, 571, 3)]
+07-16 18:58 coredd_dream INFO     [2, 4, 'inception_4c/output', (571, 571, 3)]
+07-16 18:59 coredd_dream INFO     [2, 5, 'inception_4c/output', (571, 571, 3)]
+07-16 18:59 coredd_dream INFO     [2, 6, 'inception_4c/output', (571, 571, 3)]
+07-16 19:00 coredd_dream INFO     [2, 7, 'inception_4c/output', (571, 571, 3)]
+07-16 19:00 coredd_dream INFO     [2, 8, 'inception_4c/output', (571, 571, 3)]
+07-16 19:01 coredd_dream INFO     [2, 9, 'inception_4c/output', (571, 571, 3)]
+07-16 19:01 coredd_dream INFO     Starting Octave 3
+07-16 19:01 coredd_dream INFO     [3, 0, 'inception_4c/output', (800, 800, 3)]
+07-16 19:02 coredd_dream INFO     [3, 1, 'inception_4c/output', (800, 800, 3)]
+07-16 19:03 coredd_dream INFO     [3, 2, 'inception_4c/output', (800, 800, 3)]
+07-16 19:04 coredd_dream INFO     [3, 3, 'inception_4c/output', (800, 800, 3)]
+07-16 19:04 coredd_dream INFO     [3, 4, 'inception_4c/output', (800, 800, 3)]
+07-16 19:05 coredd_dream INFO     [3, 5, 'inception_4c/output', (800, 800, 3)]
+07-16 19:06 coredd_dream INFO     [3, 6, 'inception_4c/output', (800, 800, 3)]
+07-16 19:06 coredd_dream INFO     [3, 7, 'inception_4c/output', (800, 800, 3)]
+07-16 19:07 coredd_dream INFO     [3, 8, 'inception_4c/output', (800, 800, 3)]
+07-16 19:08 coredd_dream INFO     [3, 9, 'inception_4c/output', (800, 800, 3)]
+07-16 19:08 imgurpost    INFO     Imgur posting initiated
+07-16 19:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 19:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.imgur.com
+07-16 19:08 imgurpost    INFO     Image uploded
+07-16 19:08 imgurpost    INFO     http://i.imgur.com/PbDc2fi.jpg
+07-16 19:08 root         INFO     Imgur link: http://i.imgur.com/PbDc2fi.jpg
+07-16 19:08 redditpost   INFO     Reddit Post initiated
+07-16 19:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTP connection (1): update_checker.bryceboe.com
+07-16 19:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 19:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): www.reddit.com
+07-16 19:08 redditpost   INFO     Comment (link to original) added
+07-16 19:08 requests.packages.urllib3.connectionpool INFO     Starting new HTTPS connection (1): api.reddit.com
+07-16 19:08 commenter    INFO     Comment posted
+07-16 19:08 root         INFO     COMPLETE
+07-16 19:08 root         INFO     **************************************
