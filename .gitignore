@@ -1,7 +1,7 @@
-images/raw/*.*
-images/processed/*.*
-tmp.prototxt
 *.pyc
-scripts/credentials.py
+images/processed/*.*
+images/raw/*.*
 records/done.txt
 records/im.ser
+scripts/credentials.py
+tmp.prototxt
