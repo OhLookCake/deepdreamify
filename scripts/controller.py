@@ -40,7 +40,7 @@ for image in imagelist:
     '''
 
     ctr+=1
-    logging.info(str(ctr) + ': ' + str(image[0]))
+    logging.info(str(ctr) + ': ' + str(image[0]) + ' - ' + image[1] + ' - ' + image[4])
     # 2. Deepdreamify
     if image[2] > 800:
         dreamify('images/raw/'+image[0], resize_newsize=800)
@@ -58,7 +58,7 @@ for image in imagelist:
     # 5. Comment on original post
     ddinfolink = 'https://www.reddit.com/r/deepdreamified/comments/3di8qm/faq_aka_wtf_is_going_on_here/'
     commenttext = "Hi! I'm a dreamification bot, and I've deep-dream-ified your post [here](" + redditlink + ")  \n\nTo learn more about what this is, see [here](" + ddinfolink + ")   \n\nHope you enjoy the dreamified post, but if, for some reason, you're uncomfortable with this, drop me a PM, and I'll take it off."
-#    comment_on_post(image[1], commenttext)
+    comment_on_post(image[1], commenttext)
 
     with open('records/done.txt', 'a') as donefile:
         donefile.write(image[1]+'\n')
