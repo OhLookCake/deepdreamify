@@ -1,4 +1,5 @@
 *.pyc
+*~
 images/processed/*.*
 images/raw/*.*
 records/done.txt
