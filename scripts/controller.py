@@ -23,7 +23,7 @@ logging.info('Started new instance')
 logging.info('Calling Fetcher')
 
 #1. Fetch
-imagelist = fetch(fetchfrom='sometimesitestthings', numfetch=25)
+imagelist = fetch(fetchfrom='pics', numfetch=25)
 logging.info('Fetched imagelist')
 print imagelist
 
@@ -48,7 +48,8 @@ for image in imagelist:
         dreamify('images/raw/'+image[0])
 
     # 3. Upload dreamified image to imgur
-    imgurlink = post_to_imgur('images/processed/'+image[0], titletext='Deep-dream-ified: ' + image[2], descriptiontext = '')
+    imagetitle = '.'.join(image[0].split('.')[:-1])
+    imgurlink = post_to_imgur('images/processed/'+imagetitle+'.jpg', titletext='Deep-dream-ified: ' + image[2], descriptiontext = '')
     logging.info('Imgur link: ' + imgurlink)
 
     # 4. Post on reddit, add comment (link to original post)
@@ -57,7 +58,7 @@ for image in imagelist:
     # 5. Comment on original post
     ddinfolink = 'https://www.reddit.com/r/deepdreamified/comments/3di8qm/faq_aka_wtf_is_going_on_here/'
     commenttext = "Hi! I'm a dreamification bot, and I've deep-dream-ified your post [here](" + redditlink + ")  \n\nTo learn more about what this is, see [here](" + ddinfolink + ")   \n\nHope you enjoy the dreamified post, but if, for some reason, you're uncomfortable with this, drop me a PM, and I'll take it off."
-    comment_on_post(image[1], commenttext)
+#    comment_on_post(image[1], commenttext)
 
     with open('records/done.txt', 'a') as donefile:
         donefile.write(image[1]+'\n')
