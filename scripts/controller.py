@@ -35,17 +35,31 @@ for image in imagelist:
     image[0]: filename/imgurname - used to refer to file name on disk (includes extension)
     image[1]: submissionid - used to keep record of which submission is processed
     image[2]: submission title - used to give title to post on imgur, reddit
-    image[3]: max file dimension - used to decide if resizeing is needed
+    image[3]: max file dimension - used to decide if resizing is needed
     image[4]: permalink - used to post the comment to posted image
     '''
 
     ctr+=1
     logging.info(str(ctr) + ': ' + str(image[0]) + ' - ' + image[1] + ' - ' + image[4])
     # 2. Deepdreamify
-    if image[2] > 800:
-        dreamify('images/raw/'+image[0], resize_newsize=800)
+    ddfiedfile = 'records/ddfied.txt'
+    postsddfied = []
+    if not os.path.isfile(ddfiedfile):
+        postsddfied = []
     else:
-        dreamify('images/raw/'+image[0])
+        with open(ddfiedfile, 'r') as donefile:
+            postsddfied = donefile.read().split('\n')
+            postsddfied = filter(None, postsddfied)
+    if image[1] not in postsddfied:
+        if image[2] > 800:
+            dreamify('images/raw/'+image[0], resize_newsize=800)
+        else:
+            dreamify('images/raw/'+image[0])
+    
+        with open(ddfiedfile, 'a') as donefile:
+            donefile.write(image[1]+'\n')
+    else:
+        logging.info('Already Dreamified; Skipping Dreamification process')
 
     # 3. Upload dreamified image to imgur
     imagetitle = '.'.join(image[0].split('.')[:-1])
@@ -53,7 +67,25 @@ for image in imagelist:
     logging.info('Imgur link: ' + imgurlink)
 
     # 4. Post on reddit, add comment (link to original post)
-    redditlink = post_to_reddit(imgurlink, title='Deep-dream-ified: '+image[2], link_to_original=image[4], postto='deepdreamified')
+    rpostedfile = 'records/rposted.txt'
+    postsrposted = {}
+    redditlink = ''
+    if not os.path.isfile(rpostedfile):
+        postsrposted = {}
+    else:
+        with open(rpostedfile, 'r') as donefile:
+            postsandurls = donefile.read().split('\n')
+            postsandurls = filter(None, postsandurls)
+
+            postsrposted = {pnu.split('\t')[0]:pnu.split('\t')[1] for pnu in postsandurls}
+    if image[1] not in postsrposted:
+        redditlink = post_to_reddit(imgurlink, title='Deep-dream-ified: '+image[2], link_to_original=image[4], postto='deepdreamified')
+        with open(rpostedfile, 'a') as donefile:
+            donefile.write(image[1]+'\t' + str(redditlink)  +'\n')
+    else:
+        logging.info('Already posted to reddit; Skipping posting to reddit')
+        redditlink = postsrposted[image[1]]
+
 
     # 5. Comment on original post
     ddinfolink = 'https://www.reddit.com/r/deepdreamified/comments/3di8qm/faq_aka_wtf_is_going_on_here/'
