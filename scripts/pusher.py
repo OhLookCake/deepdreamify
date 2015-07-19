@@ -58,14 +58,15 @@ def post_to_reddit(url, title, link_to_original, postto='deepdreamified'):
 
 
 def comment_on_post(post_id, comment):
-      commenterlogger = logging.getLogger('commenter')
+    commenterlogger = logging.getLogger('commenter')
+    commenterlogger.info('Comment on post initiated')
+    
+    r = praw.Reddit(user_agent = user_agent)
+    r.login(REDDIT_USERNAME, REDDIT_PASS)
 
-      r = praw.Reddit(user_agent = user_agent)
-      r.login(REDDIT_USERNAME, REDDIT_PASS)
-
-      submission = r.get_submission(submission_id=post_id)
-      submission.add_comment(comment)
-      commenterlogger.info('Comment posted')
+    submission = r.get_submission(submission_id=post_id)
+    submission.add_comment(comment)
+    commenterlogger.info('Comment posted')
 
 
 
