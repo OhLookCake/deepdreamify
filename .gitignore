@@ -2,7 +2,6 @@
 *~
 images/processed/*.*
 images/raw/*.*
-records/done.txt
-records/im.ser
+records/*
 scripts/credentials.py
 tmp.prototxt
